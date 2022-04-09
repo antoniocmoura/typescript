@@ -1,0 +1,68 @@
+* {
+  font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+  padding: 20px;
+}
+
+input {
+  width: 350px;
+  font-size: 14px;
+}
+
+button {
+  width: 75px;
+  height: 22px;
+  margin-left: 2px;
+  margin-right: 2px;
+  color: #ffffff;
+  background-color: #11468F;
+  border: 0px;
+}
+
+button:disabled {
+  width: 75px;
+  height: 22px;
+  margin-left: 2px;
+  margin-right: 2px;
+  color: #ffffff;
+  background-color: #696969;
+  border: 0px;
+}
+
+table,
+th,
+td {
+  font-size: 14px;
+  border: 1px solid;
+}
+
+tr {
+  height: 30px;
+}
+
+table {
+  width: 900px !important;
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+.task {
+  width: 535px;
+}
+
+.status {
+  text-align: center;
+  width: 120px;
+}
+
+.options {
+  text-align: center;
+  width: 245px;
+}
+
+.container-button {
+  display: flex;
+  justify-content: center;
+}

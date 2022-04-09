@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício TypeScript</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <table class="table table-bordered" width="500px">
+        <thead>
+            <tr>
+                <td colspan="3">
+                    <form>
+                        <input type="text" placeholder="digite a tarefa">
+                        <button type="submit" class="addTask">Adicionar</button>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td class="task">Tarefa</td>
+                <td class="status">Status</td>
+                <td class="options">Opções</td>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <template>
+        <div class="container-button">
+            <button class="del">Deletar</button>
+            <button class="edit">Editar</button>
+            <button class="finish">Finalizar</button>
+        </div>
+    </template>
+    <script src="./dist/app.js"></script>
+</body>
+
+</html>
